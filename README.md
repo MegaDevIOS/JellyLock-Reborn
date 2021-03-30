@@ -6,7 +6,7 @@ A beautifully simple lockscreen application launcher for iOS 14.
 
 ![GitHub top language](https://img.shields.io/github/languages/top/MegaDevIOS/JellyLock-Reborn?color=pink)
 ![GitHub issues](https://img.shields.io/github/issues/MegaDevIOS/JellyLock-Reborn?color=pink)
-![GitHub](https://img.shields.io/github/license/MegaDevIOS/JellyLock-Reborn?color=pink)
+
 
 ## Where to find?
 
