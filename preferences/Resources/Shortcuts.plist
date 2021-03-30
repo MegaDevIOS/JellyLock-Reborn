@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+    		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Instructions</string>
+			<key>footerText</key>
+			<string>Choose a shortcut action. Certain shortcuts will not work if you dont have the tweak required for it installed. </string>
+		</dict>
+
+
+     	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Shortcuts</string>
+		</dict>
+
+        <dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.megadev.jellylockreborn</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>leftshortcut</string>
+			<key>label</key>
+			<string>Shortcut Left</string>
+			<key>validTitles</key>
+			<array>
+            	<string>None</string>
+				<string>FlashLight (Default) </string>
+				<string>Camera</string>
+				<string>Unlock</string>
+				<string>Play/Pause</string>
+				<string>Sentinel (only if installed)</string>
+
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+			</array>
+		</dict>
+		        <dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>2</integer>
+			<key>defaults</key>
+			<string>com.megadev.jellylockreborn</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>rightshortcut</string>
+			<key>label</key>
+			<string>Shortcut Right</string>
+			<key>validTitles</key>
+			<array>
+            	<string>None</string>
+				<string>FlashLight</string>
+				<string>Camera (Default)</string>
+				<string>Unlock</string>
+				<string>Play/Pause</string>
+				<string>Sentinel (only if installed)</string>
+
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+			</array>
+		</dict>
+
+
+	</array>
+	<key>title</key>
+	<string>Shortcuts</string>
+</dict>
+</plist>

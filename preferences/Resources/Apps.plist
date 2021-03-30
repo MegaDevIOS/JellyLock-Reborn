@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+    		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Instructions</string>
+			<key>footerText</key>
+			<string>Choose the apps that you want to appear on JellyLock Reborn's unlock ring. JellyLock Reborn will automatically position them in order.</string>
+		</dict>
+	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Apps</string>
+		</dict>
+
+    	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showApp1</string>
+			<key>label</key>
+			<string>App Shortcut 1</string>
+		</dict>
+
+    	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showApp2</string>
+			<key>label</key>
+			<string>App Shortcut 2</string>
+		</dict>
+    	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showApp3</string>
+			<key>label</key>
+			<string>App Shortcut 3</string>
+		</dict>
+    	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showApp4</string>
+			<key>label</key>
+			<string>App Shortcut 4</string>
+		</dict>
+    	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>showApp5</string>
+			<key>label</key>
+			<string>App Shortcut 5</string>
+		</dict>
+
+
+
+
+	</array>
+	<key>title</key>
+	<string>Shortcuts</string>
+</dict>
+</plist>

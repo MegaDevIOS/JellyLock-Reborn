@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+<dict>
+    <key>cellClass</key>
+    <string>HBTwitterCell</string>
+    <key>label</key>
+    <string>Twitter</string>
+    <key>showAvatar</key>
+    <false/>
+    <key>user</key>
+    <string>omegaluldev</string>
+</dict>
+				<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Most changes require a respring!</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.megadev.jellylockreborn</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.megadev.jellylockreborn-PreferencesChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply (Respring)</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+				<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Appearance</string>
+			<key>detail</key>
+			<string>AppearanceListController</string>
+		</dict>
+				<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Apps</string>
+			<key>detail</key>
+			<string>AppShortcutsListController</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Shortcuts</string>
+			<key>detail</key>
+			<string>shortcutsListController</string>
+		</dict>
+
+	    <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+
+		</dict>
+
+	<dict>
+    <key>cell</key>
+    <string>PSLinkCell</string>
+    <key>cellClass</key>
+    <string>HBLinkTableCell</string>
+	<key>icon</key>
+    <string>github.png</string>
+    <key>label</key>
+    <string>Source Code</string>
+    <key>url</key>
+    <string>https://github.com/MegaDevIOS/JellyLock-Reborn</string>
+</dict>
+<dict>
+    <key>cell</key>
+    <string>PSGroupCell</string>
+    <key>label</key>
+    <string>Experiencing issues?</string>
+</dict>
+<dict>
+    <key>action</key>
+    <string>hb_sendSupportEmail</string>
+    <key>cell</key>
+    <string>PSLinkCell</string>
+	<key>icon</key>
+    <string>email.png</string>
+    <key>label</key>
+    <string>Email Support</string>
+</dict>
+<dict>
+    <key>cell</key>
+    <string>PSGroupCell</string>
+    <key>footerText</key>
+    <string>If you like this tweak, please consider a donation.</string>
+</dict>
+<dict>
+    <key>cell</key>
+    <string>PSLinkCell</string>
+    <key>cellClass</key>
+    <string>HBLinkTableCell</string>
+    <key>icon</key>
+    <string>paypal.png</string>
+    <key>label</key>
+    <string>Donate</string>
+    <key>url</key>
+    <string>https://paypal.me/megadevtweaks</string>
+</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Reset prefs</string>
+		</dict>
+<dict>
+    <key>cell</key>
+    <string>PSButtonCell</string>
+    <key>cellClass</key>
+    <string>HBTintedTableCell</string>
+	<key>action</key>
+    <string>resetPrefs</string>
+    <key>label</key>
+    <string>Reset Preferences</string>
+</dict>
+	</array>
+	<key>title</key>
+	<string>JellyLock Reborn</string>
+</dict>
+</plist>
