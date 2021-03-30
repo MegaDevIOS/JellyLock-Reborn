@@ -1,6 +1,6 @@
 # JellyLock Reborn
 ### Current Version
-2.1.2
+1.0
 
 A beautifully simple lockscreen application launcher for iOS 14.
 
