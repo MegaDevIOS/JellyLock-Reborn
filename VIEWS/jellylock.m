@@ -919,7 +919,7 @@ break;
 
 
 
-NSLog(@"Released %f",origPos);
+
 self.jellyBackDrop.hidden = YES;
 self.bigCircle.hidden = YES;
 currentlySelected = 0;

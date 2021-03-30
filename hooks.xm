@@ -27,7 +27,7 @@ BOOL hideQuickactions;
 	appsarray = [appsarray arrayByAddingObjectsFromArray:[SparkAppList getAppListForIdentifier:@"com.megadev.jellylockreborn" andKey:@"app3"]];
 	appsarray = [appsarray arrayByAddingObjectsFromArray:[SparkAppList getAppListForIdentifier:@"com.megadev.jellylockreborn" andKey:@"app4"]];
 	appsarray = [appsarray arrayByAddingObjectsFromArray:[SparkAppList getAppListForIdentifier:@"com.megadev.jellylockreborn" andKey:@"app5"]];
-	 NSLog(@"NUTS %@",appsarray);
+
 
 	
 
