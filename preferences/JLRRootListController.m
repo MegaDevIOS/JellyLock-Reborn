@@ -19,7 +19,7 @@
     self.headerImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.headerImageView.image = [UIImage imageWithContentsOfFile:@"/Library/PreferenceBundles/jellylockrebornpref.bundle/JLRBanner.png"];
     self.headerImageView.translatesAutoresizingMaskIntoConstraints = NO;
-	self.headerImageView.clipsToBounds = YES;
+    self.headerImageView.clipsToBounds = YES;
 
     [self.headerView addSubview:self.headerImageView];
     [NSLayoutConstraint activateConstraints:@[
